@@ -1610,7 +1610,7 @@ contactForm.addEventListener("submit", async (event) => {
         const formData = new URLSearchParams(new FormData(contactForm));
 
         const response = await fetch(
-            "http://localhost:8080/flowershop/contact",
+            "http://localhost:8080/FlowerShopBackend-1.0.0/contact",
             {
                 method: "POST",
                 headers: {
